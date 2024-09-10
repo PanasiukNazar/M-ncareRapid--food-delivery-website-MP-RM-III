@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>MâncareRapidă</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Playfair+Display:wght@600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg navbar-dark fixed-top py-lg-0 px-lg-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <h1 class="text-primary m-0">MâncareRapidă</h1>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler me-4"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav mx-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active"
+                        >Acasă</a
+                    >
+                    <a href="about.html" class="nav-item nav-link">Despre</a>
+                    <a href="service.html" class="nav-item nav-link"
+                        >Servicii</a
+                    >
+                    <a href="testimonial.html" class="nav-item nav-link"
+                        >Testimoniale</a
+                    >
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <div class="d-none d-lg-flex">
+                    <div
+                        class="flex-shrink-0 btn-lg-square border border-light rounded-circle"
+                    >
+                        <i class="fa fa-phone text-primary"></i>
+                    </div>
+                    <div class="ps-3">
+                        <small class="text-primary mb-0">Sună-ne</small>
+                        <p class="text-light fs-5 mb-0">+40756702702</p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="owl-carousel header-carousel position-relative">
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-1.jpg" alt="" />
+                    <div class="owl-carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-lg-8">
+                                    <p
+                                        class="text-primary text-uppercase fw-bold mb-2"
+                                    >
+                                        // Descoperă mâncarea preferată la un
+                                        clic distanță
+                                    </p>
+                                    <h1
+                                        class="display-1 text-light mb-4 animated slideInDown"
+                                    >
+                                        Livrare Rapidă și Fiabilă
+                                    </h1>
+                                    <p class="text-light fs-5 mb-4 pb-3">
+                                        Alege dintr-o gamă variată de preparate
+                                        delicioase și bucură-te de livrare
+                                        rapidă, direct la ușa ta. Indiferent că
+                                        ai poftă de pizza, sushi sau deserturi,
+                                        mâncarea ta preferată este la doar
+                                        câteva click-uri distanță.
+                                    </p>
+                                    <a
+                                        href="about.html"
+                                        class="btn btn-primary rounded-pill py-3 px-5"
+                                        >Citește mai mult</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-2.jpg" alt="" />
+                    <div class="owl-carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-lg-8">
+                                    <h1
+                                        class="display-1 text-light mb-4 animated slideInDown"
+                                    >
+                                        Mâncare Proaspătă, Gătită cu Drag
+                                    </h1>
+                                    <p class="text-light fs-5 mb-4 pb-3">
+                                        Îți oferim preparate gătite din
+                                        ingrediente proaspete, pregătite cu
+                                        grijă de bucătarii noștri talentați.
+                                        Fiecare masă este o experiență culinară
+                                        de neuitat, livrată cu promptitudine și
+                                        atenție la detalii.
+                                    </p>
+                                    <a
+                                        href="contact.html"
+                                        class="btn btn-primary rounded-pill py-3 px-5"
+                                        >Contact Us</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Facts Start -->
+        <div class="container-xxl py-6">
+            <div class="container">
+                <div class="row g-4">
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="fact-item bg-light rounded text-center h-100 p-5"
+                        >
+                            <i
+                                class="fa fa-certificate fa-4x text-primary mb-4"
+                            ></i>
+                            <p class="mb-2">Ani de experiență</p>
+                            <h1 class="display-5 mb-0" data-toggle="counter-up">
+                                12
+                            </h1>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeIn"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="fact-item bg-light rounded text-center h-100 p-5"
+                        >
+                            <i class="fa fa-users fa-4x text-primary mb-4"></i>
+                            <p class="mb-2">Profesioniști calificați</p>
+                            <h1 class="display-5 mb-0" data-toggle="counter-up">
+                                175
+                            </h1>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div
+                            class="fact-item bg-light rounded text-center h-100 p-5"
+                        >
+                            <i
+                                class="fa fa-bread-slice fa-4x text-primary mb-4"
+                            ></i>
+                            <p class="mb-2">Produse totale</p>
+                            <h1 class="display-5 mb-0" data-toggle="counter-up">
+                                235
+                            </h1>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeIn"
+                        data-wow-delay="0.7s"
+                    >
+                        <div
+                            class="fact-item bg-light rounded text-center h-100 p-5"
+                        >
+                            <i
+                                class="fa fa-cart-plus fa-4x text-primary mb-4"
+                            ></i>
+                            <p class="mb-2">Comenzi zilnice</p>
+                            <h1 class="display-5 mb-0" data-toggle="counter-up">
+                                1357
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->
+
+        <!-- About Start -->
+        <div class="container-xxl py-6">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="row img-twice position-relative h-100">
+                            <img
+                                class="img-fluid rounded"
+                                src="img/approach-1.jpg"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="h-100">
+                            <p class="text-primary text-uppercase mb-2">
+                                // Despre noi
+                            </p>
+                            <h1 class="display-6 mb-4">
+                                Gătit cu Grijă, Livrare Rapidă și Satisfacție
+                                Garantată
+                            </h1>
+                            <p>
+                                Într-o eră în care viteza și comoditatea sunt
+                                esențiale, abordarea noastră în livrarea de
+                                mâncare se bazează pe un principiu simplu:
+                                calitate întâi de toate. Ne propunem să îți
+                                oferim nu doar mâncare, ci o experiență culinară
+                                de neuitat, care să te facă să te întorci mereu
+                                la noi. Fiecare pas al procesului nostru, de la
+                                selecția ingredientelor până la livrarea finală,
+                                este realizat cu cea mai mare atenție. Primul
+                                pas în abordarea noastră este selecția
+                                ingredientelor. Colaborăm cu fermieri și
+                                furnizori locali pentru a ne asigura că folosim
+                                produse proaspete și de cea mai bună calitate.
+                                Fiecare masă este gătită cu dragoste, folosind
+                                rețete tradiționale și tehnici moderne, astfel
+                                încât să ne asigurăm că fiecare preparat este
+                                delicios și sănătos. Ne dorim ca fiecare client
+                                să se simtă în siguranță știind că mănâncă
+                                alimente de calitate superioară.
+                            </p>
+                            <p>
+                                Odată ce preparatele sunt gata, ne concentrăm pe
+                                livrarea rapidă și eficientă. Echipa noastră de
+                                livrare este bine antrenată și dedicată să aducă
+                                mâncarea caldă și proaspătă la ușa ta. Folosim
+                                ambalaje ecologice care păstrează temperatura
+                                optimă a alimentelor, asigurându-ne că fiecare
+                                masă ajunge în cele mai bune condiții. Suntem
+                                conștienți că timpul este prețios, așa că ne
+                                străduim să reducem la minimum timpul de
+                                așteptare, fără a sacrifica calitatea.
+                                Feedback-ul clienților este esențial pentru noi.
+                                Încurajăm toți utilizatorii să ne împărtășească
+                                impresiile lor, iar echipa noastră lucrează
+                                constant pentru a îmbunătăți serviciile noastre
+                                pe baza sugestiilor primite. Ne angajăm să creăm
+                                o comunitate bazată pe încredere și satisfacție,
+                                unde fiecare părere contează. În concluzie,
+                                abordarea noastră se concentrează pe gătit cu
+                                grijă, livrare rapidă și satisfacție garantată.
+                                Indiferent dacă optezi pentru o masă rapidă în
+                                timpul zilei sau o cină specială, suntem aici să
+                                îți oferim cele mai bune preparate, livrate cu
+                                profesionalism și pasiune. Alegerea noastră
+                                înseamnă alegerea unui stil de viață sănătos și
+                                gustos, la doar un click distanță!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Product Start -->
+        <div class="container-xxl bg-light my-6 py-6 pt-0">
+            <div class="container">
+                <div
+                    class="bg-primary text-light rounded-bottom p-5 my-6 mt-0 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <div class="row g-4 align-items-center">
+                        <div class="col-lg-6">
+                            <h1 class="display-4 text-light mb-0">
+                                Vă rugăm să ne sunați pentru a comanda ceva de
+                                mâncare
+                            </h1>
+                        </div>
+                        <div class="col-lg-6 text-lg-end">
+                            <div
+                                class="d-inline-flex align-items-center text-start"
+                            >
+                                <i
+                                    class="fa fa-phone-alt fa-4x flex-shrink-0"
+                                ></i>
+                                <div class="ms-4">
+                                    <p class="fs-5 fw-bold mb-0">Sunați-ne</p>
+                                    <p class="fs-1 fw-bold mb-0">
+                                        +40756702702
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 700px"
+                >
+                    <h1 class="display-6 mb-4">
+                        Experiență Unică în Livrarea de Mâncare Direct la Ușa Ta
+                    </h1>
+                    <p>
+                        Într-o lume aglomerată, unde fiecare minut contează,
+                        livrarea de mâncare devine o soluție practică pentru a
+                        savura preparate delicioase fără a face compromisuri.
+                        Ne-am dedicat să îți oferim o experiență unică și
+                        plăcută, care să transforme fiecare masă într-un moment
+                        special. De la selecția atentă a ingredientelor până la
+                        livrarea rapidă și eficientă, caracteristicile noastre
+                        sunt concepute pentru a răspunde nevoilor tale și pentru
+                        a-ți aduce bucurie în fiecare zi. Iată câteva dintre
+                        trăsăturile cheie ale serviciului nostru:
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100"
+                        >
+                            <div class="text-center p-4">
+                                <h3 class="mb-3">Mâncare Gătită cu Dragoste</h3>
+                                <span>
+                                    Fiecare preparat este realizat cu
+                                    ingrediente proaspete și de calitate, gătit
+                                    cu pasiune de bucătarii noștri
+                                    experimentați. Ne asigurăm că fiecare masă
+                                    nu doar că este gustoasă, ci și sănătoasă,
+                                    oferindu-ți o experiență culinară de
+                                    neuitat.</span
+                                >
+                            </div>
+                            <div class="position-relative mt-auto">
+                                <img
+                                    class="img-fluid"
+                                    src="img/product-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100"
+                        >
+                            <div class="text-center p-4">
+                                <h3 class="mb-3">Livrare Rapidă și Fiabilă</h3>
+                                <span>
+                                    Înțelegem că timpul tău este prețios. De
+                                    aceea, ne concentrăm pe livrarea rapidă a
+                                    preparatelor, asigurându-ne că ajung la tine
+                                    calde și proaspete. Echipa noastră de
+                                    livrare se dedică să îți aducă mâncarea
+                                    preferată într-un timp record, fără a
+                                    compromite calitatea.</span
+                                >
+                            </div>
+                            <div class="position-relative mt-auto">
+                                <img
+                                    class="img-fluid"
+                                    src="img/product-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div
+                            class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100"
+                        >
+                            <div class="text-center p-4">
+                                <h4 class="mb-3">
+                                    Meniu Diversificat pentru Toate Gusturile
+                                </h4>
+                                <span>
+                                    Descriere: Oferim o gamă variată de
+                                    preparate, de la mâncăruri tradiționale
+                                    românești la specialități internaționale,
+                                    inclusiv opțiuni vegane și fără gluten.
+                                    Astfel, ne asigurăm că fiecare client
+                                    găsește ceva pe gustul său, indiferent de
+                                    preferințele alimentare.
+                                </span>
+                            </div>
+                            <div class="position-relative mt-auto">
+                                <img
+                                    class="img-fluid"
+                                    src="img/product-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Product End -->
+
+        <!-- Blog Start -->
+        <div class="container-xxl py-6">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 500px"
+                >
+                    <p class="text-primary text-uppercase mb-2">
+                        // Ultimele Noastre Articole de Blog
+                    </p>
+                    <h1 class="display-6 mb-4">
+                        Inovații și Sfaturi în Livrarea de Mâncare
+                    </h1>
+                    <p>
+                        Într-o lume în continuă schimbare, livrarea de mâncare
+                        evoluează constant pentru a răspunde nevoilor
+                        consumatorilor moderni. În acest bloc, îți prezentăm
+                        cele mai recente articole de blog, unde explorăm
+                        tendințele, inovațiile și sfaturile utile pentru a-ți
+                        îmbunătăți experiența culinară. De la rețete delicioase
+                        până la strategii de livrare eficientă, îți aducem
+                        informații valoroase pentru a face fiecare masă mai
+                        specială.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="team-item text-center rounded overflow-hidden"
+                        >
+                            <img
+                                style="width: 100%"
+                                class="img-fluid"
+                                src="img/blog-1.jpg"
+                                alt=""
+                            />
+                            <div class="team-text">
+                                <div class="team-title">
+                                    <h5>
+                                        Cum Să Alegi Cele Mai Sănătoase Opțiuni
+                                        în Livrarea de Mâncare
+                                    </h5>
+                                    <span>
+                                        Află cum poți face alegeri alimentare
+                                        mai sănătoase atunci când comanzi
+                                        mâncare. Îți oferim sfaturi despre cum
+                                        să interpretezi meniurile, să identifici
+                                        ingredientele proaspete și să selectezi
+                                        preparatele care îți susțin stilul de
+                                        viață sănătos, fără a sacrifica gustul.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="team-item text-center rounded overflow-hidden"
+                        >
+                            <img
+                                style="width: 100%"
+                                class="img-fluid"
+                                src="img/blog-2.jpg"
+                                alt=""
+                            />
+                            <div class="team-text">
+                                <div class="team-title">
+                                    <h5>
+                                        Tendințele Anului în Livrarea de
+                                        Mâncare: Ce să Aștepți în 2024
+                                    </h5>
+                                    <span>
+                                        Explorează cele mai recente tendințe în
+                                        livrarea de mâncare, de la tehnologia de
+                                        livrare rapidă la opțiunile sustenabile.
+                                        Descoperă cum inovațiile din industrie
+                                        transformă modul în care consumatorii se
+                                        bucură de mese acasă și cum aceste
+                                        schimbări pot influența alegerile tale
+                                        alimentare.</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-light footer my-6 mb-0 py-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <h4 class="text-light mb-4">MâncareRapidă</h4>
+                        <p>
+                            Ne dorim să îți oferim cele mai bune preparate și
+                            servicii de livrare. Dacă ai întrebări, sugestii sau
+                            feedback, nu ezita să ne contactezi! Echipa noastră
+                            este aici pentru a te ajuta să te bucuri de o
+                            experiență culinară de neuitat. Așteptăm cu
+                            nerăbdare să auzim de la tine și să îți aducem
+                            mâncarea preferată direct la ușa ta!
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h4 class="text-light mb-4">Adresă Office</h4>
+                        <p class="mb-2">
+                            <i class="fa fa-map-marker-alt me-3"></i>Bulevardul
+                            Gării 7, Brașov 500227, România
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt me-3"></i>+40756702702
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope me-3"></i
+                            >mâncare_rapidă@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h4 class="text-light mb-4">Linkuri rapide</h4>
+                        <a class="btn btn-link" href="about.html">Despre noi</a>
+                        <a class="btn btn-link" href="contact.html"
+                            >Contactează-ne</a
+                        >
+                        <a class="btn btn-link" href="service.html"
+                            >Serviciile noastre</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Termeni și condiții</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Politica de confidențialitate</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
